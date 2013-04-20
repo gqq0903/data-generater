@@ -124,6 +124,7 @@
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeight = 30;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -208,13 +209,14 @@
             // 
             // attributeName
             // 
+            this.attributeName.FillWeight = 20F;
             this.attributeName.HeaderText = "Attribute Name";
             this.attributeName.Name = "attributeName";
             this.attributeName.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.attributeName.Width = 180;
             // 
             // randomType
             // 
+            this.randomType.FillWeight = 20F;
             this.randomType.HeaderText = "Random Type";
             this.randomType.Items.AddRange(new object[] {
             "Regex",
@@ -224,10 +226,10 @@
             // 
             // randomString
             // 
+            this.randomString.FillWeight = 60F;
             this.randomString.HeaderText = "Random String";
             this.randomString.Name = "randomString";
             this.randomString.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.randomString.Width = 440;
             // 
             // Form1
             // 

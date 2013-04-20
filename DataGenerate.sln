@@ -3,13 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGenerate", "DataGenerate\DataGenerate.csproj", "{53A26988-8F23-4DD0-93B3-41BB298DE56F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CA7EC3A5-E615-407A-A77B-5035061935CA}"
-	ProjectSection(SolutionItems) = preProject
-		DataGenerate.vsmdi = DataGenerate.vsmdi
-		Local.testsettings = Local.testsettings
-		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = DataGenerate.vsmdi
